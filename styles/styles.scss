@@ -5,9 +5,9 @@
   width: 100%;
   min-height: 4271px;
   margin: auto;
-  border: 10px solid black;
   position: relative;
 }
+/*---------------------Page-1------------------------------------*/
 .One {
   max-width: 1773px;
   width: 100%;
@@ -138,5 +138,428 @@
   }
   .One-List ul li a:hover {
     color: chartreuse;
+  }
+}
+
+/*---------------------Page-2------------------------------------*/
+.Two {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.Second-Img {
+  max-width: 1770px;
+  width: 100%;
+  min-height: 685px;
+  margin: auto;
+  align-items: center;
+  margin-left: 15px;
+}
+.Two-Grid {
+  position: absolute;
+  z-index: 0;
+  display: grid;
+  grid-template-rows: repeat(8, 1fr);
+  grid-template-columns: repeat(16, 1fr);
+  grid-gap: 10px;
+  max-width: 1770px;
+  width: 100%;
+  min-height: 685px;
+  margin: auto;
+  top: 0;
+  left: 0;
+  .Two-1 {
+    grid-row: 3 / 7;
+    grid-column: 3 / 9;
+  }
+  .Two-2 {
+    grid-row: 2 / 5;
+    grid-column: 10 / 14;
+  }
+  .Two-3 {
+    grid-row: 5 / 8;
+    grid-column: 11 / 15;
+  }
+}
+.Two-1-Heading {
+  font-family: $font1;
+  color: $font-color;
+  font-weight: 46px;
+}
+.Two-1-Paraghraph {
+  font-family: $font;
+  color: $font-color;
+  font-weight: 16px;
+  letter-spacing: 1.6px;
+}
+.Explore-btn {
+  width: 228px;
+  height: 63px;
+  color: $font-color;
+  background-color: $header-color;
+  font-weight: 16px;
+  border: none;
+}
+.Explore-btn:hover {
+  color: chartreuse;
+  cursor: pointer;
+}
+/*---------------------Page-3------------------------------------*/
+.Three {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.image2 {
+  max-width: 1770px;
+  width: 100%;
+  min-height: 340px;
+  margin: auto;
+  align-items: center;
+  margin-left: 15px;
+}
+.Three-Gird {
+  position: absolute;
+  z-index: 0;
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 10px;
+  max-width: 1773px;
+  width: 100%;
+  min-height: 340px;
+  margin: auto;
+  top: 0;
+  left: 0;
+  .Search-place {
+    grid-row: 2 / 4;
+    grid-column: 2 / 3;
+  }
+  .Select-place {
+    grid-row: 2 / 4;
+    grid-column: 3 / 4;
+  }
+  .Book-Enjoy {
+    grid-row: 2 / 4;
+    grid-column: 4 / 5;
+  }
+}
+.Search-Place-Heading {
+  font-family: $font1;
+  font-weight: 36px;
+  color: $font-color;
+}
+.Search-Place-Heading:hover {
+  color: chartreuse;
+  cursor: pointer;
+}
+.fa-magnifying-glass {
+  color: blue;
+  margin-left: 50px;
+  padding-left: 40px;
+}
+.fa-magnifying-glass:hover {
+  color: chartreuse;
+  cursor: pointer;
+}
+.fa-circle-check {
+  color: red;
+  margin-left: 50px;
+  padding-left: 40px;
+}
+.fa-circle-check:hover {
+  color: chartreuse;
+  cursor: pointer;
+}
+.fa-thumbs-up {
+  color: blue;
+  margin-left: 50px;
+  padding-left: 40px;
+}
+.fa-thumbs-up:hover {
+  color: chartreuse;
+  cursor: pointer;
+}
+/*---------------------Page-4------------------------------------*/
+
+.Four {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.image4 {
+  max-width: 1770px;
+  width: 100%;
+  min-height: 700px;
+  margin: auto;
+  align-items: center;
+  margin-left: 15px;
+}
+.Four-Grid {
+  position: absolute;
+  z-index: 0;
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-columns: repeat(10, 1fr);
+  grid-gap: 10px;
+  max-width: 1770px;
+  width: 100%;
+  min-height: 700px;
+  margin: auto;
+  top: 0;
+  left: 0;
+  .Four-Box {
+    grid-row: 3 / 6;
+    grid-column: 3 / 6;
+  }
+  .Four-Heading {
+    font-family: $font;
+    color: $font-color;
+    font-weight: 20px;
+    margin-left: 20px;
+    padding-top: 20px;
+  }
+  .Four-Heading-3 {
+    font-family: $font;
+    color: $font-color;
+    font-weight: 20px;
+    margin-left: 20px;
+    padding-top: 20px;
+  }
+  .Four-Paragraph-4 {
+    font-family: $font;
+    color: $font-color;
+    font-weight: 16px;
+    margin-left: 20px;
+    padding-top: 20px;
+  }
+  .BOOK-btn1 {
+    font-family: $font1;
+    color: $font-color;
+    font-weight: 16px;
+    width: 228px;
+    height: 63px;
+    background-color: $header-color;
+    margin-left: 20px;
+    padding-top: 20px;
+  }
+  .BOOK-btn1:hover {
+    color: chartreuse;
+    cursor: pointer;
+  }
+}
+
+.Four-Box {
+  background-color: #232323;
+}
+.Four-1 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.image5 {
+  max-width: 1770px;
+  width: 100%;
+  min-height: 700px;
+  margin: auto;
+  align-items: center;
+  margin-left: 15px;
+}
+.Four-1-Grid {
+  position: absolute;
+  z-index: 0;
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-columns: repeat(10, 1fr);
+  grid-gap: 10px;
+  max-width: 1770px;
+  width: 100%;
+  min-height: 700px;
+  margin: auto;
+  top: 0;
+  left: 0;
+  .Four-1-Box {
+    grid-row: 3 / 6;
+    grid-column: 6 / 9;
+    background: #232323;
+  }
+}
+.Four-Heading {
+  font-family: $font;
+  color: $font-color;
+  font-weight: 20px;
+  margin-left: 20px;
+  padding-top: 20px;
+}
+.Four-Paragraph-4 {
+  font-family: $font;
+  color: $font-color;
+  font-weight: 16px;
+  margin-left: 20px;
+  padding-top: 20px;
+}
+.BOOK-btn2 {
+  font-family: $font1;
+  color: $font-color;
+  font-weight: 16px;
+  width: 228px;
+  height: 63px;
+  background-color: $header-color;
+  margin-left: 20px;
+  padding-top: 20px;
+}
+.BOOK-btn2:hover {
+  color: chartreuse;
+  cursor: pointer;
+}
+.Four-Heading-3 {
+  font-family: $font;
+  color: $font-color;
+  font-weight: 20px;
+  margin-left: 20px;
+  padding-top: 20px;
+}
+/*--------------------Page-5------------------------------------*/
+
+.Five {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.Five-Grid {
+  position: absolute;
+  z-index: 0;
+  display: grid;
+  grid-template-rows: repeat(10, 1fr);
+  grid-template-columns: repeat(16, 1fr);
+  grid-gap: 10px;
+  max-width: 1770px;
+  width: 100%;
+  min-height: 731px;
+  margin: auto;
+  top: 0;
+  left: 0;
+  .Five-Box1 {
+    grid-row: 2 / 3;
+    grid-column: 6 / 12;
+  }
+  .Five-Box2 {
+    grid-row: 4 / 7;
+    grid-column: 4 / 7;
+  }
+  .Five-Box3 {
+    grid-row: 4 / 8;
+    grid-column: 8 / 14;
+  }
+}
+.image51 {
+  width: 445px;
+  width: 100%;
+  min-height: 284px;
+  margin-left: 15px;
+}
+.Five-Box1 {
+  font-family: $font1;
+  color: white;
+  text-align: center;
+}
+.Five-heading-1 {
+  font-family: $font;
+  color: $font-color;
+  margin-left: 60px;
+}
+.Five-Paragraph {
+  color: white;
+  font-family: $font;
+  margin-left: 60px;
+  letter-spacing: 3px;
+  background-color: #333333;
+}
+.Five-Body-Image {
+  max-width: 1770px;
+  width: 100%;
+  min-height: 731px;
+  margin: auto;
+}
+/*--------------------Page-6------------------------------------*/
+.Sex {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.Image61 {
+  max-width: 1773px;
+  width: 100%;
+  min-height: 271px;
+  margin: auto;
+}
+
+.Six-Group {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.Six-Heading {
+  color: $font-color;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 48px;
+}
+.Six-paragraph {
+  font-family: $font;
+  color: $font-color;
+  font-weight: 16px;
+  letter-spacing: 6.82px;
+  white-space: nowrap;
+}
+.Six-Socialmedia {
+  display: flex;
+  justify-content: center;
+}
+
+.Six-Socialmedia i {
+  margin: 0 20px;
+}
+.fa-facebook-f {
+  color: white;
+  cursor: pointer;
+}
+.fa-facebook-f:hover {
+  color: blue;
+}
+.fa-twitter {
+  color: white;
+  cursor: pointer;
+}
+.fa-twitter:hover {
+  color: chartreuse;
+}
+.fa-linkedin-in {
+  color: blue;
+  cursor: pointer;
+}
+.fa-linkedin-in:hover {
+  color: chartreuse;
+}
+.fa-youtube {
+  color: white;
+  cursor: pointer;
+}
+.fa-youtube:hover {
+  color: red;
+}
+.fa-pinterest-p {
+  color: white;
+  cursor: pointer;
+}
+.fa-pinterest-p:hover {
+  color: red;
+}
+@media screen and (max-width: 575px) {
+  .container {
   }
 }
