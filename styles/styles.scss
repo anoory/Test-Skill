@@ -1,2 +1,142 @@
 @import "./colors";
 @import "./variables";
+.container {
+  max-width: 1800px;
+  width: 100%;
+  min-height: 4271px;
+  margin: auto;
+  border: 10px solid black;
+  position: relative;
+}
+.One {
+  max-width: 1773px;
+  width: 100%;
+  min-height: 821px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  .First-Img {
+    max-width: 1770px;
+    width: 100%;
+    min-height: 820px;
+  }
+
+  .One-body {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+  }
+
+  .One-Heading {
+    position: absolute;
+    color: $font-color;
+    margin-top: 0px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 48px;
+  }
+  .One-Paragrph {
+    display: flex;
+    margin: auto;
+    position: absolute;
+    margin-top: 35px;
+    font-family: $font;
+    color: $font-color;
+    font-weight: 22px;
+    letter-spacing: 6.82px;
+    white-space: nowrap;
+  }
+  .search-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 70px;
+    justify-content: center;
+  }
+  .Search-Input {
+    width: 500px;
+    height: 60px;
+    font-family: $font;
+    text-align: center;
+    border: none;
+  }
+  .Search-Input:focus {
+    background: chartreuse;
+  }
+  .Search-btn {
+    background: #5474fd;
+    width: 150px;
+    height: 60px;
+    margin-left: 10px;
+    color: #ffffff;
+    font-family: "Aleo", serif;
+    border: none;
+    cursor: pointer;
+  }
+  .Search-btn:hover {
+    color: chartreuse;
+  }
+
+  .Scroll-Down {
+    margin-top: 100px;
+    color: #ffffff;
+    font-family: $font;
+    font-weight: 14px;
+  }
+  .Scroll-Down:hover {
+    color: chartreuse;
+  }
+  .fa-chevron-down {
+    color: #ffffff;
+    cursor: pointer;
+  }
+  .fa-chevron-down:hover {
+    color: chartreuse;
+  }
+  .Inside-One {
+    max-width: 1770px;
+    width: 100%;
+    min-height: 80px;
+    margin: auto;
+    background-color: $header-color;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  .One-Footer {
+    color: $font-color;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 48px;
+    display: flex;
+    justify-content: center;
+  }
+  .One-List {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .One-List ul {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    list-style: none;
+  }
+  .One-List ul li a {
+    list-style-type: none;
+    margin: 0 20px;
+    color: $font-color;
+    text-decoration: none;
+  }
+  .One-List ul li a:hover {
+    color: chartreuse;
+  }
+}
